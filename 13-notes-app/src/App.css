@@ -1,0 +1,20 @@
+.app {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1f2937;
+}
+
+.app h1 {
+  margin-bottom: 1rem;
+  color: #0f172a;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}

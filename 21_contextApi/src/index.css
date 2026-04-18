@@ -1,0 +1,65 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* App container */
+body {
+  background: #f5f7fa;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+}
+
+/* Navbar (top bar) */
+.nav {
+  width: 100%;
+  background: #1e293b;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav h2 {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+/* Second navbar (menu) */
+.nav2 {
+  width: 100%;
+  background: #334155;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 12px 0;
+}
+
+.nav2 h4 {
+  color: #e2e8f0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.nav2 h4:hover {
+  color: #38bdf8;
+  transform: scale(1.1);
+}
+
+/* Responsive (optional but nice) */
+@media (max-width: 600px) {
+  .nav2 {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

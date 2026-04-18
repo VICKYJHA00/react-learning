@@ -1,0 +1,60 @@
+Center everything
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: Arial, sans-serif;
+}
+
+/* Form styling */
+.form {
+  margin: auto;
+  background: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+}
+
+/* Heading */
+.form h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Input field */
+.form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.form input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+/* Button */
+.form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #667eea;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  background: #5a67d8;
+}
